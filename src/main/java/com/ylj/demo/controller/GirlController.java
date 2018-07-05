@@ -40,6 +40,7 @@ public class GirlController {
     }
     @GetMapping(value = "girls/getAge/{id}")
     public Girl getAge(@PathVariable("id") Integer id)throws Exception{
+        //你好
          return  girlService.getAge(id);
     }
 }
